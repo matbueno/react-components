@@ -980,6 +980,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/matbueno.react-components.rainbow-loader@^0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.dev/matbueno.react-components.rainbow-loader/-/matbueno.react-components.rainbow-loader-0.0.2.tgz#b2afff0acfc703808873ae87ad9dd2ebb2797cac"
+  integrity sha1-sq//Cs/HA4CIc66HrZ3S67J5fKw=
+  dependencies:
+    classnames "2.2.6"
+    react "^16.13.0"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -3684,7 +3692,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@2.2.6, classnames@^2.2.5:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
