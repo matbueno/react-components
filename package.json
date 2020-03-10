@@ -11,10 +11,9 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "storybook": "start-storybook -p 9009 -s public",
+    "build": "build-storybook -s public",
+    "start": "node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +29,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.14"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "yarn"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/react": "^5.3.14"
   }
 }
