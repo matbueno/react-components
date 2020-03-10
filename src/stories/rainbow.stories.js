@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import Loading from "./index";
+import Loading from "../components/rainbow-loader";
 
 const containerStyle = {
   width: "100vw",

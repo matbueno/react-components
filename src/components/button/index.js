@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/button-has-type */
 import React from "react";
 import PropTypes from "prop-types";

@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import Button from "./index";
+import Button from "../components/button";
 
 const containerStyle = {
   width: "100vw",
